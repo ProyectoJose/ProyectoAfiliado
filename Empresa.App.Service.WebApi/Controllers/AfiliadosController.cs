@@ -11,6 +11,7 @@ namespace Empresa.App.Service.WebApi.Controllers
         [HttpGet("ListAfiliados")]
         public List<Afiliado> ListAfiliados()
         {            
+
             var list = new List<Afiliado>();
             SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
 
