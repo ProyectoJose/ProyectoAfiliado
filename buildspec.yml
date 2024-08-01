@@ -26,7 +26,7 @@ phases:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
-      - docker push 654654589924.dkr.ecr.us-east-1.amazonaws.com/grupo1container:latest
+      - docker push 654654589924.dkr.ecr.us-east-1.amazonaws.com/grupo1containerafiliado:latest
       - echo Creating imagedefinitions.json file...
       - printf '[{"name":"containerafiliado","imageUri":"654654589924.dkr.ecr.us-east-1.amazonaws.com/grupo1containerafiliado:latest"}]' > imagedefinitions.json
 
