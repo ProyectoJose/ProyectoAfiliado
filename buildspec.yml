@@ -20,7 +20,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...
-      - docker build -t testcontaineregistry1 -f Empresa.App.Service.WebApi/Dockerfile .
+      - docker build -t testcontaineregistryafiliado1 -f Empresa.App.Service.WebApi/Dockerfile .
       - docker tag testcontaineregistryafiliado1:latest 654654589924.dkr.ecr.us-east-1.amazonaws.com/grupo1containerafiliado:latest
   post_build:
     commands:
